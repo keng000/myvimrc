@@ -53,7 +53,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tomasr/molokai'
+" ステータスライン加工
 NeoBundle 'itchyny/lightline.vim'
+" python 補完
+NeoBundle 'davidhalter/jedi-vim'
 
 if has('lua')
     NeoBundle 'Shougo/neocomplete.vim'
